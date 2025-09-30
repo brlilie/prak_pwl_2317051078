@@ -41,10 +41,9 @@
 </head>
 <body>
     <div class="profile-card">
-        <!-- Gambar profil default -->
-        <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar">
         
-        <!-- Data dari controller -->
+        <img src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar">
+    
         <div class="profile-info">{{ $nama }}</div>
         <div class="profile-info">{{ $kelas }}</div>
         <div class="profile-info">{{ $npm }}</div>
